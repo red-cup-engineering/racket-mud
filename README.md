@@ -70,3 +70,5 @@ the explicit `active-sessions` metadata hash maps session IDs to user names and
 is the contract consumed by `who`.
 It emits only `outbound-line` and `disconnect-client` messages. Load
 `make-tcp-line-library` alongside it to make those messages reach TCP clients.
+
+[Published source revisions and downloads](data/releases/README.md)
